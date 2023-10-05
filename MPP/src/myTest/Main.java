@@ -35,7 +35,6 @@ public class Main {
 		child.count();
 		MyAbstract child2 = new Child();
 		
-		
 		child2.count();
 	}
 
