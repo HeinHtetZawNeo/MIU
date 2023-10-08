@@ -1,4 +1,4 @@
-package lessons.lesson3.lecture.stacklinkedlist;
+package lesson3.lecture.stacklinkedlist;
 import java.util.Vector;
 import java.util.Stack;
 public class Main {

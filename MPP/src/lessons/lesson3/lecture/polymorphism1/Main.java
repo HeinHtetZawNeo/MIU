@@ -1,4 +1,4 @@
-package lessons.lesson3.lecture.polymorphism1;
+package lesson3.lecture.polymorphism1;
 
 public class Main {
 
