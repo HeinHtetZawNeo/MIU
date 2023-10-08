@@ -1,4 +1,4 @@
-package lesson4.lecture.finalinherit;
+package lessons.lesson4.lecture.finalinherit;
 
 public class Super {
 	public final void print() {

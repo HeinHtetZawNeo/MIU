@@ -1,4 +1,4 @@
-package lesson3.lecture.inheritance1;
+package lessons.lesson3.lecture.inheritance1;
 
 import java.util.AbstractList;
 import java.util.List;

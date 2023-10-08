@@ -1,4 +1,4 @@
-package lesson3.lecture.inheritance4;
+package lessons.lesson3.lecture.inheritance4;
 
 public class ClassB {
 	private String name;

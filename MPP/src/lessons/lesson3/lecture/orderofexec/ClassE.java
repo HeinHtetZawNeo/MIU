@@ -1,4 +1,4 @@
-package lesson3.lecture.orderofexec;
+package lessons.lesson3.lecture.orderofexec;
 
 public class ClassE {
 

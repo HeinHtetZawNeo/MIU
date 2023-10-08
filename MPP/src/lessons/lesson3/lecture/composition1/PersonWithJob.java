@@ -1,4 +1,4 @@
-package lesson3.lecture.composition1;
+package lessons.lesson3.lecture.composition1;
 
 public class PersonWithJob  {
 	

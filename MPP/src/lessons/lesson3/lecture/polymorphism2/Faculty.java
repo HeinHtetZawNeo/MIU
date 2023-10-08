@@ -1,4 +1,4 @@
-package lesson3.lecture.polymorphism2;
+package lessons.lesson3.lecture.polymorphism2;
 
 public class Faculty extends StaffPerson {
 
