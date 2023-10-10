@@ -1,4 +1,4 @@
-package lesson5.lecture.factorypattern.myexample.pizzas;
+package lessons.lesson5.lecture.factorypattern.myexample.pizzas;
 
 public class CheesePizza extends Pizza {
 	public CheesePizza() {

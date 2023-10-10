@@ -6,12 +6,20 @@ public class Main {
 	
 	public static void main(String[] args) { 
 		Main m = new Main();
+		
 		Student bob = StudentSectionFactory.createStudent("S1", "Bob");
+		
 		Student tim = StudentSectionFactory.createStudent("S2", "Tim");
+		
 		Student allen = StudentSectionFactory.createStudent("S3", "Allen");
+		
+		
+		
+		
 		Section bio1 = StudentSectionFactory.createSection(1, "Biology");
 		Section bio2 = StudentSectionFactory.createSection(2, "Biology");
 		Section math = StudentSectionFactory.createSection(3, "Math");
+		
 		StudentSectionFactory.addSectionForStudent(bob, bio1);
 		StudentSectionFactory.addSectionForStudent(bob, math);
 		StudentSectionFactory.addSectionForStudent(tim, bio1);

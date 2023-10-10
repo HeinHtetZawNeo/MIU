@@ -14,11 +14,11 @@ import java.util.*;
 public class Student {
 	////////package level elements, used by the factory
 	Student() {
-		//do nothing
+		grades = new ArrayList<>();
 	}
 	String id;
 	String name;
-	List<TranscriptEntry> grades = new ArrayList<>();
+	List<TranscriptEntry> grades;
 	
 	void setId(String id) {
 		this.id = id;
