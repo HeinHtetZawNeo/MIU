@@ -1,10 +1,10 @@
-package lesson5.lecture.factorymethods3.business;
+package lessons.lesson5.lecture.factorymethods3.business;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
-import lesson5.lecture.factorymethods3.dataaccess.Dao;
+import lessons.lesson5.lecture.factorymethods3.dataaccess.Dao;
 
 public class PersonDao implements Dao {
 	private Person person;

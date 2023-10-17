@@ -1,4 +1,4 @@
-package lesson5.lecture.factorymethods3.business;
+package lessons.lesson5.lecture.factorymethods3.business;
 
 public class Person {
 	private String name, ssn;

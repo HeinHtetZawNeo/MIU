@@ -1,4 +1,4 @@
-package lesson5.lecture.factorymethods3.dataaccess;
+package lessons.lesson5.lecture.factorymethods3.dataaccess;
 
 public class DataAccessFactory {
 	public static DataAccess getDataAccess() {

@@ -1,4 +1,4 @@
-package lesson5.lecture.factorymethods3.dataaccess;
+package lessons.lesson5.lecture.factorymethods3.dataaccess;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
