@@ -1,4 +1,6 @@
-package lesson7.labs.prob1.partD;
+package labs.day7Lab.prob1.partD;
+
+import java.util.Objects;
 
 public class Employee {
 	private String name;
@@ -34,19 +36,27 @@ public class Employee {
 	@Override
 	public boolean equals(Object ob) {
 		if(ob == null) return false;
-		if(!(ob instanceof Employee)) return false;
+		if(!(ob instanceof Employee)) {
+			System.out.println("Obj is not instance of Employee");
+			return false;
+		}
 		Employee emp = (Employee)ob;
-		return emp.name.equals(name) && emp.salary == salary && emp.visited == visited;
+		return emp.name.equals(name) && emp.salary == salary ;//&& emp.visited == visited;
 	}
+	
+//	@Override
+//	public int hashCode() {
+//		int result = 17;
+//		long longval = Double.doubleToLongBits(salary);
+//		int salaryHash = (int) (longval ^ (longval >>> 32));
+//		result += 31 * result + name.hashCode();
+//		result += 31 * result + salaryHash;
+//		result += 31 * result + (visited ? 1 : 0);
+//		return result;
+//	}
 	
 	@Override
 	public int hashCode() {
-		int result = 17;
-		long longval = Double.doubleToLongBits(salary);
-		int salaryHash = (int) (longval ^ (longval >>> 32));
-		result += 31 * result + name.hashCode();
-		result += 31 * result + salaryHash;
-		result += 31 * result + (visited ? 1 : 0);
-		return result;
+		return Objects.hash(name, salary,visited);
 	}
 }

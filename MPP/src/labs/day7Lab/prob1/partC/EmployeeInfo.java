@@ -1,4 +1,4 @@
-package lesson7.labs.prob1.partC;
+package labs.day7Lab.prob1.partC;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -86,7 +86,10 @@ public class EmployeeInfo {
 	 * elements (this is really just set equality)
 	 */
 	public static boolean listsAreEqual(List<Employee> l1, List<Employee> l2) {
-		if(l1.size() != l2.size()) return false;
+		if(l1.size() != l2.size()) {
+			System.out.println("size is not equal");
+			return false;
+		}
 		for(Employee e : l1) {
 			if(!l2.contains(e)) return false;
 		}

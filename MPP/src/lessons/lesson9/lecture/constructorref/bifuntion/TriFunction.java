@@ -1,4 +1,4 @@
-package lesson9.lecture.constructorref.bifuntion;
+package lessons.lesson9.lecture.constructorref.bifuntion;
 
 @FunctionalInterface
 public interface TriFunction<S, U, R, T> {

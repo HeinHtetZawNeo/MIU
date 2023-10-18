@@ -1,4 +1,6 @@
-package lesson7.labs.prob1.partC;
+package labs.day7Lab.prob1.partC;
+
+import java.util.Objects;
 
 public class Employee {
 	private String name;
@@ -26,11 +28,20 @@ public class Employee {
 	}
 	
 	@Override
-	public boolean equals(Object ob) {
-		if(ob == null) return false;
-		if(!(ob instanceof Employee)) return false;
-		Employee emp = (Employee)ob;
-		return emp.name.equals(name) && emp.salary == salary;
+	public int hashCode() {
+		return Objects.hash(name, salary);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		return Objects.equals(name, other.name) && salary == other.salary;
 	}
 	
 	

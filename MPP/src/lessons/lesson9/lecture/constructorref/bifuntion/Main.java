@@ -1,4 +1,4 @@
-package lesson9.lecture.constructorref.bifuntion;
+package lessons.lesson9.lecture.constructorref.bifuntion;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

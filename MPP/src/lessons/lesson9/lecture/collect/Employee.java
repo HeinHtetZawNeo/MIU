@@ -1,4 +1,4 @@
-package lesson9.lecture.collect;
+package lessons.lesson9.lecture.collect;
 
 public class Employee {
 	String name;

@@ -1,4 +1,4 @@
-package lesson8.lecture.closures.java7;
+package lessons.lesson8.lecture.closures.java7;
 
 import java.util.ArrayList;
 import java.util.Collections;

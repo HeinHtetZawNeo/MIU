@@ -1,4 +1,4 @@
-package lesson9.lecture.lambdalibrary;
+package lessons.lesson9.lecture.lambdalibrary;
 
 public class Customer {
 	private String name;

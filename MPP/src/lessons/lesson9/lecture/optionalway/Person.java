@@ -1,4 +1,4 @@
-package lesson9.lecture.optional_flatmap.usingoptionals.optionalway;
+package lessons.lesson9.lecture.optionalway;
 
 import java.util.Optional;
 

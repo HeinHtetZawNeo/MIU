@@ -1,4 +1,4 @@
-package lesson9.lecture.optional_flatmap.usingoptionals;
+package lessons.lesson9.lecture.optional_flatmap.usingoptionals;
 import java.util.*;
 public class Company {
 	private String name;

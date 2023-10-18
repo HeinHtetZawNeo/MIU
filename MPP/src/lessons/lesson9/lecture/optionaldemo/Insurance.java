@@ -1,4 +1,4 @@
-package lesson9.lecture.optionaldemo;
+package lessons.lesson9.lecture.optionaldemo;
 
 public class Insurance {
     // Insurance company must have a name
